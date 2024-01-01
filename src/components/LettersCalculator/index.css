@@ -1,0 +1,47 @@
+.container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  display: flex;
+  flex-direction: ccolumn;
+  align-items: center;
+}
+
+.letters-count-container {
+  padding: 20px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.phrase {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.input-container {
+  border-radius: 5pxx;
+  border-color: #ffffff;
+  background-color: transparent;
+  padding: 5px;
+  width: 300px;
+  margin-top: 20px;
+  color: #ffffff;
+}
+
+.button {
+  background-color: #ffffff;
+  color: #1d976c;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border-width: 0px;
+}
